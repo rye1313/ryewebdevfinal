@@ -16,6 +16,8 @@
         color: #0b0a0a;
         padding: 0.5em; 
         font-family: PT Serif, sans-serif;
+        height: 100%;
+        width: 100%;
       }
 
     .main-nav {
@@ -42,7 +44,7 @@ align-items: center;
 }
 
 p {
-    padding: 20px;
+    padding: 5px;
 }
 
 .contactform {
@@ -56,6 +58,7 @@ p {
     align-items: center;
     margin: 10px;
     justify-content: center;
+    flex-wrap: wrap-reverse;
   }
   footer {
     background-color: #093b4e;
