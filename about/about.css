@@ -9,6 +9,7 @@
     header{
         font-size: 2rem;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
         background-color: rgb(80, 111, 85);
@@ -31,12 +32,16 @@
   gap: 1em;
   text-decoration-color: #eee;
     }
+    .main-nav a:active {
+        color: whitesmoke;
+      }
 
 img {
     max-width: 400px;
     margin: auto;
     padding:20px;
 }
+
 .container {
 display:flex;
 flex-direction: row;

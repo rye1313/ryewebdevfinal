@@ -5,32 +5,41 @@
     box-sizing: border-box;
  }
 
+ header{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(80, 111, 85);
+  width: 100%;
+  color: #0b0a0a;
+  padding: 0.5em; 
+  font-family: 'PT Serif', serif;
+}
 
-        .main-nav {
-      font-size: 1.5rem;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      max-width: 100%;
-      padding: 2em;
-      gap: 1em;
-      text-decoration-color: #eee;
-        }
- 
+  .main-nav {
+font-size: 1.5rem;
+position: relative;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 100%;
+padding: 2em;
+gap: 1em;
+text-decoration-color: #eee;
+  }
+  .main-nav a:active {
+    color: whitesmoke; /* Change to the desired color */
+  }
+
  body {
-   max-width: 150vh;
+   max-width: 100%;
    margin: auto;
-   display: flex;
-   justify-content: space-between;
-   min-height: 100vh;
    gap: 1rem;
   
  }
  img {
     width: 100%;
- 
- 
   max-width: 150vh;
   max-height: 100vh;
   width: 100%;
@@ -58,11 +67,11 @@ position:absolute;
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
 opacity: 0;
 transition: 0.4s;
 padding: 10px;
   }
+
   .text1:hover {
     opacity: 0.7;
     background-color: #eee;
@@ -75,3 +84,4 @@ padding: 10px;
     text-align: center;
     color: white;
   }
+  

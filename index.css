@@ -29,6 +29,10 @@
   gap: 1em;
   text-decoration-color: #eee;
     }
+    
+    .main-nav a:active {
+      color: whitesmoke; /* Change to the desired color */
+    }
 
 img {
     max-width: 800px;
